@@ -1,0 +1,43 @@
+1. Jump into "$HOME/$USER/nokia-iv/" directory.
+2. Copy "$HOME/$USER/nokia-iv/linux/info.sh" to "~/$USER/nokia-iv/bash/"
+   directory.
+3. Open any text editor you know and add below text at the very top of
+   "info.sh" file:
+
+#!/bin/bash
+
+# This is simple sysinfo bash script written for testing purposes.
+
+4. Save changes and close text editor.
+5* Make the "info.sh" file executable (in other words: add executable
+   permissions to "info.sh" file).
+6. Congratulations! You have just created your first bash script! :)
+7* Now, run this script to see how it works.
+8** Run the script again but this time redirect its results to file named
+    "~/$USER/nokia-iv/bash/info.log"
+9. Display the content of "info.log file"
+10** Create you account on github (https://github.com) portal.  Please use the
+     name "edytarudnik".  The final link to your github profile should be
+     https://github.com/edytarudnik
+11. Check what is the "git" version installed in your system.
+12* If you don't have a "git" installed, please install it.
+
+Please note: all steps marked with one or more "*" are considered as slightly
+more difficult for beginners.
+
+Have a nice development && good luck! :)
+
+1. cd nokia-iv
+2. mkdir bash
+   cp nokia-iv/linux/info.sh bash
+3. nano info.sh
+4. info.sh file is opened.  I entered given text at the begging of a script
+5. ctrl o  ctrl x
+6. thanks 
+7. bash info.sh 
+8. bash info.sh > info.log
+9. cat info.log
+10. i've created a github profile named edytarudnik 
+11.git --version
+   git version 2.25.1
+
